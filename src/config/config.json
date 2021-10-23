@@ -1,0 +1,24 @@
+{
+  "run_mode": "release",
+  "http": {
+    "protocol": "http",
+    "domain": "admin.endangeredplantsau.ga",
+    "remote_host": "34.129.56.20",
+    "local_host": "192.168.0.118",
+    "port": "3030"
+  },
+  "fe": {
+    "protocol": "http",
+    "domain": "www.endangeredplantsau.ga",
+    "remote_host": "34.129.56.20",
+    "local_host": "192.168.0.118",
+    "port": "81"
+  },
+  "be": {
+    "protocol": "http",
+    "domain": "be.admin.endangeredplantsau.ga",
+    "remote_host": "34.129.56.20",
+    "local_host": "192.168.0.118",
+    "port": "8080"
+  }
+}

@@ -1,0 +1,18 @@
+/****************************************************************************
+ * @copyright   LIU Zhao
+ * @authors     LIU Zhao (liuzhaomax@163.com)
+ * @date        2021/7/30 3:02
+ * @version     v1.0
+ * @filename    SideMenu.css
+ * @description 
+ ***************************************************************************/
+
+.sider {
+    background: #fff;
+}
+
+/*.sider .ant-menu-submenu-title:hover,*/
+/*.sider .ant-menu-item-active,*/
+/*.sider .ant-menu-submenu:hover .ant-menu-submenu-arrow {*/
+/*    color: #e73ce1 !important;*/
+/*}*/

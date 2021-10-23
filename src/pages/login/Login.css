@@ -1,0 +1,127 @@
+/****************************************************************************
+ * @copyright   LIU Zhao
+ * @authors     LIU Zhao (liuzhaomax@163.com)
+ * @date        2021/6/28 16:04
+ * @version     v1.0
+ * @filename    Login.css
+ * @description 
+ ***************************************************************************/
+
+.login {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.login-box {
+    z-index: 9999999;
+    margin-left: 65%;
+    height: 280px;
+    width: 300px;
+    background: linear-gradient(
+            to right bottom,
+            rgba(255,255,255,0.9),
+            rgba(255,255,255,0.55));
+    border-radius: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.login-box-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btn-login {
+    background-color: #338e6c;
+    border-color: #338e6c;
+}
+
+#btn-login:hover {
+    background-color: #2b795c;
+}
+
+#login-box-first-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#login-logo {
+    height: 44px;
+    width: 44px;
+    margin-left: auto;
+    margin-right: 10px;
+    background: url(../../assets/logo_notext.svg);
+}
+
+/*.ripple-position {*/
+/*    position: absolute;*/
+/*}*/
+
+/*.ripple{*/
+/*    position: absolute;*/
+/*    top: calc((100% - 30px)/2);*/
+/*    left: calc((100% - 30px)/2);*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    border-radius: 300px;*/
+/*    background: url("../../assets/cover.jpg");*/
+/*    background-attachment: fixed;*/
+/*    background-position: center center;*/
+/*    mix-blend-mode: normal;*/
+/*}*/
+/*.ripple1{*/
+/*    z-index: 2;*/
+/*    background-size: auto 106%;*/
+/*    animation: w 1s forwards;*/
+/*}*/
+/*.ripple2{*/
+/*    z-index: 3;*/
+/*    background-size: auto 102%;*/
+/*    animation: w 1s .2s forwards;*/
+/*}*/
+/*.ripple3{*/
+/*    z-index: 4;*/
+/*    background-size: auto 104%;*/
+/*    animation: w 1s .4s forwards;*/
+/*}*/
+/*.ripple4{*/
+/*    z-index: 5;*/
+/*    background-size: auto 101%;*/
+/*    animation: w 1s .5s forwards;*/
+/*}*/
+/*.ripple5{*/
+/*    z-index: 6;*/
+/*    background-size: auto 102%;*/
+/*    animation: w 1s .8s forwards;*/
+/*}*/
+/*.ripple6{*/
+/*    z-index: 7;*/
+/*    background-size: auto 100%;*/
+/*    animation: w 1s 1s forwards;*/
+/*}*/
+/*@keyframes w{*/
+/*    0%{*/
+/*        top: calc((100% - 30px)/2);*/
+/*        left: calc((100% - 30px)/2);*/
+/*        width: 30px;*/
+/*        height: 30px;*/
+/*    }*/
+/*    100%{*/
+/*        top: calc((100% - 300px)/2);*/
+/*        left: calc((100% - 300px)/2);*/
+/*        width: 300px;*/
+/*        height: 300px;*/
+/*    }*/
+/*}*/

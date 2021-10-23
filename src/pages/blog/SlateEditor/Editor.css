@@ -1,0 +1,62 @@
+.blog-update-editor blockquote{
+    border-left: 2px solid #ddd;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    color: #aaa;
+    font-style: italic;
+}
+.blog-update-editor table, .blog-update-editor th, .blog-update-editor td {
+    border: 1px solid black;
+}
+.blog-update-editor table{
+    border-collapse: collapse;
+}
+.blog-update-editor button{
+    background-color: white;
+    border:none;
+    opacity: 0.5;
+}
+.blog-update-editor .btnActive{
+    opacity: 1;
+}
+.blog-update-editor .editor-wrapper{
+    /*font-family:'Helvetica','Arial', sans-serif;*/
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: -8px 8px 13px #ededed,
+                8px -8px 13px #ffffff;
+    min-height: 200px;
+    height: fit-content;
+}
+.blog-update-editor table{
+    width:100%;
+}
+.blog-update-editor td{
+    height: 50px;
+    padding:0 5px;
+}
+.blog-update-editor .popup-wrapper{
+    display: inline;
+    position: relative;
+}
+.blog-update-editor .popup{
+    position: absolute;
+    left: 0;
+    background-color: white;
+    padding: 6px 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    z-index: 1;
+
+}
+.blog-update-editor button{
+    cursor: pointer;
+}
+.blog-update-editor .toolbar-select {
+    width: 110px;
+    border: 0;
+}
+.blog-update-editor h1 {
+    font-size: 2em;
+}

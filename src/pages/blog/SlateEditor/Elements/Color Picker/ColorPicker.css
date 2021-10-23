@@ -1,0 +1,38 @@
+
+.blog-update-editor .color-options{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    align-items: center;
+    gap: 5px;
+}
+.blog-update-editor .clicked{
+  border: 1px solid lightgray;
+  border-bottom: none;
+}
+.blog-update-editor .option, .blog-update-editor .hexPreview{
+  width: 16px;
+  height: 16px;
+  background-color: #000000;
+
+}
+.blog-update-editor .color-picker form{
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  width: 100%;
+}
+.blog-update-editor .color-picker input{
+  width: 65%;
+  height:1.3em;
+  border:1px solid lightgray;
+  border-radius: 5px;
+  padding-left:5px
+}
+.blog-update-editor .color-picker button{
+  margin:0;
+  padding:0;
+  cursor: pointer;
+}
+.blog-update-editor .color-picker input:focus{
+  outline: none;
+}
